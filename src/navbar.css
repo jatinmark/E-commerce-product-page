@@ -1,0 +1,129 @@
+
+.navigation{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   font-family: 'Kumbh Sans', sans-serif;
+   margin-top: 16px;
+}
+.navelink{
+   padding-bottom: 12px;
+}
+.navelink:hover{
+   border-bottom: 3px solid hsl(26, 100%, 55%);
+}
+a{
+    text-decoration: none;
+    color: rgb(165, 164, 164) ;
+}
+
+a:hover{
+    color: rgb(165, 164, 164);
+}
+.title{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    gap: 50px;
+    
+}
+.options{
+    display: flex;
+    align-items: center;
+   gap: 30px;
+   color : rgb(189, 188, 188);
+}
+.name{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+.horizon{
+    padding: 0 80px 0 127px;
+}
+hr{
+   width: 95%;
+    border: 1px solid lightgray;
+}
+@media only screen and (max-width : 911px) {
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    hr{
+        width: 100%;
+    }
+}
+.ava{
+    border-radius: 100%;
+    
+
+}
+.ava:hover{
+    border-radius: 100%;
+    border: 3px solid orange;
+}
+.checkout{
+    position: absolute;
+    top: 80px;
+    right: 125px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+@media only screen and (max-width : 1200px){
+    .checkout{
+        position: absolute;
+        top: 80px;
+        right: 50px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 390px){
+    .checkout {
+        position: absolute;
+        top: 80px;
+        right: 17px;
+        box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
+    }
+}
+.newbutton{
+    padding: 15px 109px 15px 109px;
+}
+
+.newphoto{
+    height: 46px;
+    max-width: 46px;
+    border-radius: 7%;
+    float: left;
+    margin-right: 14px;
+}
+.newdetails{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.minicheck{
+    margin-top: 8px;
+    margin-bottom: 23px;
+}
+.total{
+    color: black;
+    
+}
+.dusty{
+    display: flex;
+    gap: 10px;
+}
+.bin{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-weight: 700;
+}

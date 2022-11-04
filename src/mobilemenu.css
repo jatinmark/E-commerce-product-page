@@ -1,0 +1,27 @@
+.side_menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    flex: 0.60;
+    height: 915px;
+    color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+.closing{
+    position: relative;
+    top: 6px;
+    left: -78px;
+}
+.elements {
+    padding: 55px 112px 529px 43px;
+    text-align: left;
+}
+.elements >h4{
+    padding: 9px 0;
+    font-family: Kumbh Sans;
+    font-weight: 900;
+}

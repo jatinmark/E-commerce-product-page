@@ -1,0 +1,162 @@
+.content{
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 0 30px 20px 0px;
+    flex-direction: column;
+    flex: 0.60;
+}
+h6{ color: hsl(26, 100%, 55%);
+    margin-top: 58px;
+    margin-bottom: 0;
+    font-size: 15px;
+    padding-bottom: 16px;
+    font-weight: 700;
+}
+
+.textsizing{
+    font-weight: 700;
+}
+h3{
+    margin-top: 12px;
+}
+.rate{
+    margin-top:0 ;
+    margin-bottom: 0;
+}
+.rat{
+    text-decoration: line-through;
+margin-top: 12px;
+padding: 10px 20px;
+font-weight: 500;
+}
+.new{
+    margin-top: 17px;
+    display: flex;
+    align-items: center;
+
+}
+p{    
+    font-size: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    color: rgb(165, 164, 164);
+}
+.quntity{
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+   padding-left: 10px;
+   padding-right: 10px;
+   border-radius:9% ;
+   margin-right: 20px;
+ 
+ }
+ .number{
+    padding-left: 25px ;
+    padding-right: 25px ;
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+}
+ button{
+    background-color:  hsl(26, 100%, 55%);
+    border: none;
+    padding: 15px 60px 15px 60px;
+    border-radius: 17%;
+ }
+
+
+@media only screen and (max-width : 1200px){
+    .content{
+        font-family: 'Kumbh Sans', sans-serif;
+        padding: 0 0px 20px 0px;
+        flex-direction: column;
+         flex: 0.65;
+     
+    }
+    h6{ color: hsl(26, 100%, 55%);
+        margin-top: 58px;
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    button{
+        background-color:  hsl(26, 100%, 55%);
+        border: none;
+        padding: 10px 20px 10px 20px;
+     
+     }
+}
+@media only screen and (min-width : 800px){
+    button{ padding: 15px 71px 15px 66px;}
+ }
+@media only screen and (max-width : 520px){
+    .content{
+        padding: 1px 21px 28px 28px;
+    }
+    h6{ 
+        margin-top: 28px;
+    }
+    .oneline{
+    display: flex;
+    justify-content: space-between;
+    }
+    .tab{
+        flex-wrap: wrap;
+    }
+    .quntity{
+        padding-left: 17px;
+    padding-right: 16px;
+        
+    }
+    button{
+     
+        padding: 15px 100px 15px 106px;
+    margin-top: 20px;
+    margin-left: 10px
+    }
+    .number{
+        padding-left: 125px;
+    padding-right: 119px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 361px){
+    .number {
+        padding-left: 111px;
+        padding-right: 94px;
+     }
+     button {
+        padding: 15px 91px 15px 81px;
+     }    
+    }
+.discount{
+    background-color:bisque;
+    color: hsl(26, 100%, 55%);
+    border-radius: 7% ;
+    margin: 0px 0 0 18px;
+    font-size: 16px;
+    align-items: center;
+    padding: 0 4px 0 4px;
+    
+}
+.tab{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+
+
+.text{
+    color: aliceblue;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.wave{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+.wave:hover{
+    background-color: rgb(233, 187, 123);
+}

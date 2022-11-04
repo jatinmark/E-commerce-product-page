@@ -1,0 +1,15 @@
+ 
+    .sneak{
+        margin-top: 7px;  
+    }
+
+.ava{
+    border-radius: 100%;
+    
+
+}
+.ava:hover{
+    border-radius: 100%;
+    border: 3px solid orange;
+}
+
