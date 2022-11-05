@@ -14,7 +14,7 @@ const MyComponent = (props) => {
     
     /* If the viewport is more narrow than the breakpoint render the
        mobile component, else render the desktop component */
-    return width < breakpoint ? <Mobilenavbar data={props.data} /> : <Navbar data={props.data} />;
+    return width < breakpoint ? <Mobilenavbar desicion ={props.desicion}  data={props.data} /> : <Navbar desicion ={props.desicion} data={props.data} />;
   }
 
   export default MyComponent ;

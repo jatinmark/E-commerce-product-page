@@ -20,10 +20,19 @@ function Contentbody(){
       );
   }  
   
-  
+  const [set ,fun] = useState(false)
+function unclicked(){
+  fun(false);
+};
+function clicked(){
+  fun(true);
+};
+function pass(){
+  return count ;
+};
   return (
     <div>
-        <MyComponent  data = {count} />
+        <MyComponent desicion ={unclicked}  data = { set ? pass() : null } />
         <div className='main'>
         <MyimageComponent />
         <div className="content">
@@ -49,7 +58,7 @@ function Contentbody(){
           </Fab>
           </div>
           <div>
-            <button className="wave"><ShoppingCartOutlinedIcon sx={{ color: "white" }} /><span className="text"><strong>Add to cart</strong></span></button>
+            <button className="wave" onClick={clicked}><ShoppingCartOutlinedIcon sx={{ color: "white" }} /><span className="text"><strong>Add to cart</strong></span></button>
           </div>
           </div>
         </div>

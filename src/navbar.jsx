@@ -102,7 +102,7 @@ function Navbar(props){
           </strong></span></p>
          </div>
          <div className="bin">
-        <DeleteOutlineOutlinedIcon />
+        <DeleteOutlineOutlinedIcon onClick={props.desicion}/>
        </div>
         </div>
         </div>

@@ -77,11 +77,11 @@ return total;
          <p className="newdetails">
           $125.00 x {props.data} 
           <span className="total">
-          <strong style={{ margin: '10px'}}>$ {sum()}
+          <strong style={{ margin: '10px'}}>Total $ {sum()}
           </strong></span></p>
-         </div>
+         </div>  
          <div className="bin">
-        <DeleteOutlineOutlinedIcon />
+        <DeleteOutlineOutlinedIcon onClick={props.desicion} />
        </div>
         </div>
         </div>
